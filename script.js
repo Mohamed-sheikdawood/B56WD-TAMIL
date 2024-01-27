@@ -12,7 +12,7 @@ request.onload = function(){
         console.log("Subregion: " + (country.subregion ? country.subregion : "N/A"));
         console.log("Flag: " + (country.flags ? country.flags.svg : "N/A"));
         console.log("Area: " + (country.area ? country.area + " sq km" : "N/A"));
-
+        console.log("Population: " + (country.population ? country.population : "N/A"));
         console.log("--------------");
       // Session Practice Code:  
       //  var commonName = country.name.common;
