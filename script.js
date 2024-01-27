@@ -5,6 +5,12 @@ request.onload = function(){
     var res = JSON.parse(request.response);
     console.log(res);
     for(var i =0;i<res.length;i++){
-        console.log(res[i].name.common);
+        var country = res[i];
+        var commonName = country.name.common;
+        var capital = country.capital ? country.capital[0] : "N/A";
+        var area = country.area ? country.area : "N/A";
+
+        console.log(`Country: ${commonName}, Capital: ${capital}, Area: ${area}`);
+      //  console.log(res[i].name.common);
     }
 }
