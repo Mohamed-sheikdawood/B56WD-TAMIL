@@ -14,6 +14,7 @@ request.onload = function(){
         console.log("Area: " + (country.area ? country.area + " sq km" : "N/A"));
 
         console.log("--------------");
+      // Session Practice Code:  
       //  var commonName = country.name.common;
       //  var capital = country.capital ? country.capital[0] : "N/A";
       //  var area = country.area ? country.area : "N/A";
